@@ -64,5 +64,6 @@
     <h2>Мы уже знакомы</h2>
    </div>
 <?php
+ }
   require_once("footer.php");
 ?>
