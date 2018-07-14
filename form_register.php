@@ -10,7 +10,7 @@
     }
     if(isset($_SESSION["success_messages"]) && !empty($_SESSION["success_messages)){
       echo $_SESSION["success_messages"];
-      unset($_SESSION["success_messages"];
+      unset($_SESSION["success_messages"]);
     }
   ?>
 </div>
