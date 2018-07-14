@@ -19,7 +19,7 @@
           <a href="/form_register.php">Регистрация</a>
         </div>
         <div id="link_auth">
-          <a href="/form_auth.php">Авторизация<a>
+          <a href="/form_auth.php">Авторизация</a>
         </div>
       </div>
       <div class="clear"></div>
