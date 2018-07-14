@@ -4,13 +4,15 @@
   <meta charset="utf-8">
   <title>Hello World!</title>
   <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
-  
-  $(document).ready(function(){
-    $("#msgid").html("Set text)))");
-  });
-  </script>
 </head>
 <body>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $("#msgid").html("Set text)))");
+    });
+  </script>
+
     <h1>Hello World!</h1>
 <p>
 
