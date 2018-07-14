@@ -4,7 +4,7 @@
  $_SESSION["rand"] = $rand;
  $im =imageCreateTrueColor(90,50);
  $c = imageColorAllocate($im, 255, 255, 255);
- imageTftText($im, 20, -10, 10, 30, $c, "fonts/verdana.ttf", $rand);
+ imageTtfText($im, 20, -10, 10, 30, $c, "fonts/verdana.ttf", $rand);
  header("Content-type: image/png");
  imagePng($im);
  imageDestroy($im);
