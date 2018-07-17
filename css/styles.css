@@ -1,4 +1,4 @@
-
+﻿
 .clear{
     clear: both;
 }
@@ -30,11 +30,16 @@
     width: 100%;
 }
 
-#header h2, #footer h2{
+#header h2{
     text-align: center;
     margin: 0;
 }
 
+#footer h2{
+    text-align: right
+    margin: 0;
+    font-size: 18px;
+}
 #auth_block{
     width: 290px;
     float: right;

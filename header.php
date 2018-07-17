@@ -1,18 +1,18 @@
-<?php
+﻿<?php
   session_start();
 ?>
 
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Test Project myApp</title>
+    <title>Territory of GOOD Thought</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
   <head>
   <body>
 
     <div id="header">
-      <h2>Шапка сайта</h2>
+      <h2>Territory of Thought</h2>
       <a href="/index.php">Home</a>
       <div id="auth_block">
         <div id="link_register">

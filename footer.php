@@ -1,5 +1,5 @@
-<div id="footer">
-  <h2>Подвал сайта</h2>
+﻿<div id="footer">
+  <h2>©All rights has been broken</h2>
 </div>
 </body>
 </html>
