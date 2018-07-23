@@ -27,7 +27,7 @@
            $('#valid_email_message').text('Set you email');
          }
        });
-       var password = $('input[input[name=password]');
+       var password = $('input[name=password]');
        password.blur(function(){
          if(password.val() != ''){
            if(password.val().length < 6){
