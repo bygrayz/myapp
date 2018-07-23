@@ -31,7 +31,7 @@
        password.blur(function(){
          if(password.val() != ''){
            if(password.val().length < 6){
-             $(#valid_password_message').text('Minimal password length 6 chare');
+             $('#valid_password_message').text('Minimal password length 6 chare');
              $('input[type=submit]').attr('disabled',true);
            }else{
              $('#valid_password_message').text('');
