@@ -24,26 +24,25 @@
      <table>
       <tbody>
        <tr>
-        <td> Имя: </td>
-        <td><input name="first_name" required="required" type="text"></td>
+        <td> Имя: <br>
+        <input name="first_name" required="required" type="text"></td>
        </tr>
        <tr>
-        <td> Фамилия: </td>
-        <td><input name="last_name" required="required" type="text"></td>
+        <td> Фамилия: <br>
+        <input name="last_name" required="required" type="text"></td>
        </tr>
        <tr>
-        <td> Email: </td>
-        <td><input name="email" required="required" type="email"><br> 
+        <td> Email: <br>
+        <input name="email" required="required" type="email"><br> 
             <span id="valid_email_message" class="message_error"></span></td>
        </tr>
        <tr>
-        <td> Пароль: </td>
-        <td><input name="password" placeholder="минимум 6 символов" required="required" type="password"><br>
+        <td> Пароль: <br>
+        <input name="password" placeholder="минимум 6 символов" required="required" type="password"><br>
             <span id="valid_password_message" class="message_error"></span></td>
        </tr>
        <tr>
-        <td> Капча: </td>
-        <td>
+        <td> Капча: <br>
          <p>
           <img src="captcha.php" alt="Капча" /><br><br>
           <input name="captcha" placeholder="Проверочный код" required="required" type="text">
@@ -51,7 +50,7 @@
         </td>
        </tr>
        <tr>
-        <td colspan="2"><input name="btn_submit_register" value="Регимся" type="submit"></td>
+        <td><input name="btn_submit_register" value="Регимся" type="submit"></td>
        </tr>
       </tbody>
      </table>
